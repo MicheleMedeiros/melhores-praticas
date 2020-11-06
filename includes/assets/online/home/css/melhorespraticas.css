@@ -1,0 +1,161 @@
+/* =============================== OUTRAS PRATICAS ================================= */
+.titulo h1 {font-size: 60px; color: #0079C1; text-align: center; margin-right: 50px;}
+a.active span, a.active:focus {font-family: 'oswald-regular'; outline: 0;}
+.content-box{overflow: hidden;}
+.content-box > .content-info h2 {text-align: center; color: #000; font-family: 'oswald-regular'; font-size: 50px; padding-top: 5px; margin-bottom: 15px; margin-top: -59px;}
+.content-info > img{ width: 100%;}
+.content-info > .content-desc{max-width: 100%; background: #fff; position: relative; margin-top: -92px; margin: -92px 2rem 0 2rem; padding: 20px 15px; font-family: "PT Serif"; color: #858585; margin-bottom: 50px;}
+.content-quem-somos p {margin-left: 15px; margin-right: 18px; text-align: justify; font-size: 21px; padding: 10px;
+    color: #858585;
+    font-family: "PT Serif";
+}
+.lista-itens-praticas li {border-bottom: 1px solid #ccc; padding-bottom: 25px; margin-bottom: 17px;}
+.tit-big, .lista-mais-lidas p, .hover-tit-noticias .tit-small, .hover-p-noticias p, .hover-p-geral p, .hover-p-cultura p, .hover-p-esportes p, .listagem-col-left li a { -webkit-transition: all 200ms ease-in-out; -moz-transition: all 200ms ease-in-out; -o-transition: all 200ms ease-in-out; -ms-transition: all 200ms ease-in-out; transition: all 200ms ease-in-out;}
+.bg-noticias, .item-editoria-noticias::after, .nav-noticias .menu-ativo { background-color: #CD343A; fill: #CD343A;}
+.outras-praticas .bg-noticias, .tit-outras-praticas::after {background-color: #0079C1; fill: #0079C1;}
+.tit-outras-praticas h3 {font-size: 30px; color: #0079C1; margin-bottom: 40px;font-family: 'oswald-regular';}
+.tit-quem-somos h2 {text-align: center; padding: 10px; font-size: 50px;}
+.tit-outras-praticas span { display: block; width: 40px; height: 4px; position: absolute; top: 35px; margin-left: 3px;}
+.melhorespraticas-home .titulo h1 { font-size: 60px; color: #0079C1; text-align: center; margin-right: 153px; margin-bottom: 50px;
+    font-family: 'oswald-regular';
+	margin-left: 48%;
+}
+.owl-carousel.off {display: block;}
+.content-desc p {margin-bottom: 20px; font-size: 21px;}
+span.item-outraspraticas {font-size: 25px;}
+.p-content-desc{padding-top: 157px !important;}
+.content-1 .p-content-desc {padding-top: 92px !important;}
+span.item-outraspraticas:hover {color: #0079C1;}
+.outras-praticas .bg-noticias, .tit-outras-praticas::after {margin-top: 5px;}
+.lista-itens-praticas li:last-child {border-bottom: 0px;}
+
+/* =============================== FONTES PARA TESTE MELHORES PRATICAS ================================= */
+
+@font-face {
+    font-family: 'oswald-regular';
+    src: url('fonts/Oswald-Regular/Oswald-Regular.eot');
+    src: url('fonts/Oswald-Regular/Oswald-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/Oswald-Regular/Oswald-Regular.woff') format('woff'), url('fonts/Oswald-Regular/Oswald-Regular.ttf') format('truetype'), url('fonts/Oswald-Regular/Oswald-Regular.svgz#oswald-regular') format('svg'), url('fonts/Oswald-Regular/Oswald-Regular.svg#oswald-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'oswald-light';
+    src: url('fonts/oswald-light/oswald-light.eot');
+    src: url('fonts/oswald-light/oswald-light.eot?#iefix') format('embedded-opentype'), url('fonts/oswald-light/oswald-light.woff') format('woff'), url('fonts/oswald-light/oswald-light.ttf') format('truetype'), url('fonts/oswald-light/oswald-light.svgz#oswald-regular') format('svg'), url('fonts/oswald-light/oswald-light.svg#oswald-light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ======================================= OMBUSDMAN ======================================== */
+.ombudsman .content-desc h2 {text-align: left;}
+.ombudsman h3{color: #000; font-weight: bold; font-size:30px;}
+.itens-anteriores.owl-carousel.off {display: flex;}
+.itens-anteriores .item img {border-radius: 100%; padding: 15px;}
+p.name-ombus {text-align: center; color: #000; font-weight: bold; }
+.seta {
+    position: absolute;
+    padding: 0.9rem;
+    box-shadow: 1px -1px 0 1px #858585 inset;
+    -webkit-box-shadow: 2px -2px #858585 inset;
+    border: solid transparent;
+    border-width: 0 0 2rem 2rem;
+    transition: 0.2s;
+    transform: rotate(-46deg);
+    margin-left: 43%;
+}
+
+a.more {color: #858585; font-size: 20px; font-family: "PT Serif"; outline: 0;}
+.seta-ler {height: 100px; text-align: center;}
+.content-desc.fadeIn.anteriores.fadeInUp {margin-top: -20px;}
+.autor {width: 315px; float: left; margin-right: 15px;}
+p.nome {font-weight: bold; color: #000; margin-bottom: 4px;}
+p.date-ombus {font-size: 18px; text-align: center;  margin-bottom: 7px;}
+button.owl-next {margin-left: calc(100% - 16.8px);}
+.owl-nav {display: flex; margin-top: 10%;}
+.owl-nav span {font-size: 60px;}
+p.name-ombus {margin-bottom: 5px;}
+
+/* ======================================= MEDIA QUERY ======================================== */
+
+@media (max-width: 1024px) {
+    .melhorespraticas-home .titulo h1{margin-left: 44%;}
+}
+
+@media (max-width: 1011px) {
+    .melhorespraticas-home .titulo h1{margin-left: 44%;}
+}
+
+@media (max-width: 996px) {
+    .melhorespraticas-home .titulo h1{margin-left: 43%;}
+}
+
+@media (max-width: 768px) {
+    .lista-itens-praticas li { border-bottom: 0px;}
+    .melhorespraticas-home .titulo h1 {margin-right: auto;}
+    header.tit-outras-praticas {display: none;}
+    .outras-praticas .bg-noticias, .tit-outras-praticas::after{display: none;}
+    span.item-outraspraticas {
+    font-size: 20px;}
+    .content-box > .content-info h2 {font-size: 35px;}
+    .melhorespraticas-home .titulo h1{margin-left: 6%;}
+    .col-md-8 {margin-left: -14px;margin-right: -14px;}
+    .content-box > .content-info{margin-left: -30px; margin-right: -30px;}
+    .melhorespraticas-home .titulo h1 {margin-top: 40px; font-size: 40px;}
+    /*.content-desc p {margin-top: 27px;}*/
+    .content-1 .p-content-desc {margin: -64px 3.0rem 0 3.0rem;}
+    .content-desc.fadeIn.anteriores.fadeInUp {margin-top: 109px;}
+    .ombudsman .content-desc h2 {margin-top: 60px;}
+    .owl-nav span {font-size: 60px;}
+    /* p.name-ombus {margin-bottom: 0px;}*/
+    .ombudsman-atual p {margin-top: 0;}
+    .owl-nav {margin-top: 19%;}
+}
+
+@media (max-width: 425px) {
+    .melhorespraticas-home .titulo h1 {margin-top: 50px;font-size: 35px; margin-bottom: 27px;}
+    .owl-dots {margin-top: -23px;}
+    .content-desc p {font-size: 18px; margin-left: -14px; margin-right: -14px;}
+    .content-box > .content-info h2 {padding-top: 0px;}
+    .ombudsman h3 {
+    text-align: center;
+     margin-bottom: 5px;
+}
+    .content-box > .content-info h2 {
+    text-align: center;}
+    .seta {
+    margin-left: 38%;}
+    .content-desc.fadeIn.anteriores.fadeInUp {margin-top: -73px;}
+    p.name-ombus {margin-bottom: 0px;}
+    img.anterior.slideInDown {margin-left: 25px;}
+    .ombudsman .content-desc h2 {margin-top: 0;}
+    p.nome, p.funcao {margin-left: 0px;}
+    .content-info > .content-desc{margin-bottom: 0;}
+    .content-info > .content-desc {margin-bottom: 0;}
+}
+
+
+
+@media (max-width: 375px){
+    .content-1 .p-content-desc {margin: -64px 2.5rem 0 2.5rem;}
+    img.anterior.slideInDown {margin-left: 0px;}
+    p.nome, p.funcao {margin-left: 2px;}
+    .owl-nav {margin-top: 35%;}
+    .seta {margin-left: 36%;}
+}
+
+@media (max-width: 320px){
+    .itens-praticas.outras-praticas {margin-top: -27px;}
+    .melhorespraticas-home .titulo h1 {margin-bottom: 44px;}
+    .content-box > .content-info h2 {font-size: 31px;}
+    img.anterior.slideInDown {margin-left: -25px;}
+    p.nome, p.funcao {margin-left: -16px;}
+    .ombudsman h3 {font-size: 29px;}
+    .seta {margin-left: 34%;}
+}
+
+
+    
+
+
+
